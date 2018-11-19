@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Share"
+        android:id="@+id/share">
+
+        <menu>
+
+            <item android:title="Gmail"
+                android:id="@+id/gmail"
+                android:icon="@drawable/gmail"/>
+
+            <item android:title="Facebook"
+                android:id="@+id/facebook"
+                android:icon="@drawable/facebook"/>
+
+            <item android:title="Telegram"
+                android:id="@+id/telegram"
+                android:icon="@drawable/telegram"/>
+
+        </menu>
+
+    </item>
+
+
+    <item   android:title="Upload"
+        android:id="@+id/upload"/>
+
+    <item android:title="Download"
+        android:id="@+id/download"/>
+
+    <item android:title="Printe"
+        android:id="@+id/print"
+        app:showAsAction="always"
+        android:icon="@drawable/gmail"/>
+
+    <item android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:title="Move"
+        android:id="@+id/move"
+        android:icon="@drawable/facebook"
+        app:showAsAction="always"/>
+
+</menu>
